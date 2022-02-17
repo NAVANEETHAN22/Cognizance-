@@ -1,0 +1,15 @@
+Function Main
+    Declare Integer a, inp
+    Declare Real b
+    
+    Output "TO CHECK GIVEN VALUE IS DIVISIBLE BY 3 OR NOT"
+    Output "ENTER THE NUMBER :"
+    Input inp
+    Assign b = inp/3
+    Assign a = inp/3
+    If a==b
+        Output "TRUE"
+    False:
+        Output "FALSE"
+    End
+End

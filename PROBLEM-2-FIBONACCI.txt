@@ -1,0 +1,18 @@
+Function Main
+    Declare Integer a, b, c, i, n
+    
+    Assign a = 0
+    Assign b = 1
+    Assign c = 1
+    Output "TO PRINT Nth FIBONACCI NUMBER"
+    Output "ENTER THE NUMBER :"
+    Input n
+    For i = 1 to 45
+        If i==n
+            Output c
+        End
+        Assign c = a+b
+        Assign a = b
+        Assign b = c
+    End
+End
